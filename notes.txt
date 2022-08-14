@@ -1,0 +1,55 @@
+----------------------------------------Java Cheat sheet for VS Code-------------------------------------------
+1)
+Install Java extension pack by Microsoft (from extensions)
+
+2)
+Install JDK
+If you don't have JDK installed on your machine, you can install it from (https://www.oracle.com/java/technologies/downloads/#jdk18-windows).
+
+To verify it's installed, create a new terminal and try running the following command:
+
+cmd> java -version
+
+You should see something similar to the following:
+
+java version "1.8.0_311"
+Java(TM) SE Runtime Environment (build 1.8.0_311-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.311-b11, mixed mode)
+
+The detailed output will be based on the JDK you install.
+
+
+-------------------------------Important thing------------------------------
+search bar> Environment variables.
+Add Path to jdk in Path variable.
+
+C:\Program Files\Java\jdk1.8.0_74\bin         (Path to JDK)
+
+click Add and OK.
+
+Relaunch vs code 
+
+Now run the code by clicking on play button :)
+
+-------------------------------Create new project----------------------------
+ctrl+shift+p
+search> java: create new project
+click> no build tools (for simple one)
+select> project folder (click select)
+give> project name  (TwitterClone)
+
+--------------------------------run code on cmd--------------------------------
+compile and run Java with Command Prompt
+----------------------------------------
+1. Make sure you have a Java JDK installed
+2. (optional) use a text editor and save a file as .java
+3. Open Command Prompt (windows) or Terminal (Mac) on your computer
+4. set path=C:\Program Files\Java\jdk1.8.0_74\bin (where JDK is located)
+5. cd C:\Users\Myname\Desktop\Java\firstProjectFolder (or wherever you java file is)
+6. javac HelloWorld.java (to compile .java file, it will create .class file)
+7. java HelloWorld (to run a .class file, it's portable(machine independent))
+
+-----------------------------------Compile/Run----------------------------------
+command to compile and run java code:
+cmd> if ($?) { javac Main.java } ; if ($?) { java Main }
+
