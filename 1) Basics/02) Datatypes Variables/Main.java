@@ -37,10 +37,10 @@ public class Main
 		long a = 1234L;
 		System.out.println("long: "+a);
 		
-		float  y = 31234567.1234567989898F;          //7 points percision
+		float  y = 31234567.1234567989898F;          //7 points precision
 		System.out.println("float: "+y);             //float: 3.1234567
 		
-		double z = 3.12345679898982323232323;       //15 points percision
+		double z = 3.12345679898982323232323;       //15 points precision
 		System.out.println("double: "+z);           //double: 3.123456798989823
 		
 		char ch = 'A';
