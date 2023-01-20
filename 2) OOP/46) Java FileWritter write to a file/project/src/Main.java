@@ -12,7 +12,8 @@ public class Main
             //FileWriter writer = new FileWriter("file.txt");  //now it will overwite the file. By default append is false here. File will be overwritten.
             FileWriter writer = new FileWriter("file.txt", true);//now it will be appended at the end.
             writer.write("This is some text\n");
-            writer.append("Some text appended\n");
+            writer.write("This is some text\n");
+            writer.append("Some text appended\n"); 
             writer.close();
         }
         catch (IOException e)

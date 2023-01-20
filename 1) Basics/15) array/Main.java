@@ -2,17 +2,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        String []strArr =new String[3];
+        String []strArr =new String[6];
         for (int i = 0; i < strArr.length; i++) {
-            if(i==1)
+            if(i==0)
             {
                 strArr[i] = i+1+"st";
             }
-            else if(i==2)
+            else if(i==1)
             {
                 strArr[i] = i+1+"nd";
             }
-            else if(i==3)
+            else if(i==2)
             {
                 strArr[i] = i+1+"rd";
             }

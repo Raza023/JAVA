@@ -11,6 +11,8 @@ public class Main
         Bicycle bicycle = new Bicycle();
         Boat boat = new Boat();
 
+        // Vehicle car2 = new Car();    //can do that as well.
+
         Vehicle[] vehicles = {car,bicycle,boat};
 
         for (Vehicle vehicle : vehicles) {

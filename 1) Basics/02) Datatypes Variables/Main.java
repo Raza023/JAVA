@@ -75,7 +75,7 @@ public class Main
 //		datatypes       size          primitive/reference     value
 //		boolean         1 bit                p                true/false
 //		byte            1 byte               p                -128/127
-//		short           2 bytes              p                 -32768/32767
+//		short           2 bytes              p                -32768/32767
 //		int             4 bytes              p                -2 billion/2 billion
 //		long            8 bytes              p                -9 quintillion / 9 quintillion
 		

@@ -12,7 +12,5 @@ public class Main {
             ans*=i;
         }
         System.out.println("\nFactorial("+fact+") = "+ans);
-
-        
     }
 }

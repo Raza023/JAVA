@@ -20,7 +20,7 @@ public class Main {
         }
         finally{
             //this code always be executed no matter if there is an exception or not.
-            scanner.nextLine();
+            scanner.nextLine();       //it will clear the buffer(which having '\n' in it.) for us. And our program will run nicely.
         }
         
         System.out.print("Enter your gender: ");

@@ -8,6 +8,8 @@ public class Main
         //                 sataic member is 'owned' by a class.
         //                 static members called by classname.
         //for Example =    Math.sqrt(25);        //It's also a static method.  (see it's definition by ctrl+leftClick) 
+        // int x = (int)Math.sqrt(5);
+
 
         Friend friend = new Friend("Rauf");
         Friend friend2 = new Friend("Riaz");

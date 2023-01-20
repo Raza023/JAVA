@@ -26,7 +26,7 @@ public class Main {
         //[width]      (define the width in which your data should display.)
         //             // minimum number of characters to be written as output
         //%16s         //defines from right to left and shifted towards right if data is small.
-        //%-16s        //defines from left to right and shifted towards left if data is small and remaing space will beempty.
+        //%-16s        //defines from left to right and shifted towards left if data is small and remaing space will be empty.
         System.out.printf("\n\nMy name is %16s","Hassan Raza");
 
 
@@ -39,7 +39,7 @@ public class Main {
 		// - : left-justify
 		// + : output a plus ( + ) or minus ( - ) sign for a numeric value
 		// 0 : numeric values are zero-padded
-		// , : comma grouping separator if numbers > 1000
+		// , : comma grouping separator if numbers >= 1000
 		
 		System.out.printf("\n\nPrice of torch is %-15f",10000.0);   //second arg must be double for %f
         System.out.printf("\nPrice of torch is %+f",10000.000);     //shows + sign with value 
