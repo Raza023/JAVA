@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class App {
     //Stack: LIFO data structure. (Last in first out)
-
+ 
     //Usefull functions:
     //       push() to add on the top.
     //       pop() to get and remove the top value.

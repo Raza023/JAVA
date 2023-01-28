@@ -51,7 +51,7 @@ public class Main {
 
         //logical Operators.
         // && (both must be true).
-        // || (either must be tre).
+        // || (either must be true).
         // !  (reverse of condition).
 
         boolean hasBForm = true;

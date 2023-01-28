@@ -1,5 +1,5 @@
-//printf = an optinal method to control, format and display text on the cponsole window.
-//two arguments = format string + (onject/variable/value)
+//printf = an optional method to control, format and display text on the console window.
+//two arguments = format string + (object/variable/value)
 //for it we use format specifier.
 //  % [flag] [precision] [width] [conversion-character]
 
@@ -26,7 +26,7 @@ public class Main {
         //[width]      (define the width in which your data should display.)
         //             // minimum number of characters to be written as output
         //%16s         //defines from right to left and shifted towards right if data is small.
-        //%-16s        //defines from left to right and shifted towards left if data is small and remaing space will be empty.
+        //%-16s        //defines from left to right and shifted towards left if data is small and remaining space will be empty.
         System.out.printf("\n\nMy name is %16s","Hassan Raza");
 
 

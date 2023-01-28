@@ -7,7 +7,7 @@ public class Main {
         System.out.println("\nValue is:\b: "+name);
         System.out.println("wow\t\'"+name+"\'");
         System.out.println("Hello \rAssalam o Alaikum, \""+name+"\"!");
-        System.out.println("My broth++er name is: "+brother);
+        System.out.println("My brother name is: "+brother);
     }
 }
 

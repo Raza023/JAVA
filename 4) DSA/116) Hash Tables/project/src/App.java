@@ -66,10 +66,5 @@ public class App
         {
             System.out.println(key.hashCode()+"\t\t"+key.hashCode() % 10 +"\t"+key+"\t"+table2.get(key));   //for Integer key (key.hashCode() = key).
         }
-
-
-        
-
-        
     }
 }

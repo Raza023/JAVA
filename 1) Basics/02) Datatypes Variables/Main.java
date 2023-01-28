@@ -73,19 +73,21 @@ public class Main
 }
 
 //		datatypes       size          primitive/reference     value
+
 //		boolean         1 bit                p                true/false
+
 //		byte            1 byte               p                -128/127
 //		short           2 bytes              p                -32768/32767
 //		int             4 bytes              p                -2 billion/2 billion
 //		long            8 bytes              p                -9 quintillion / 9 quintillion
-		
-		//decimal point number.  (3.14)
+
+//decimal point number.  (3.14)
 //		float           4 bytes              p                6-7 franctional points
 //		double          8 bytes              p                15 digits franctional points
-		
+
 //		char            2 bytes              p                 char -'a'/ascii
 //		String          unlimted             r                // number of chars+1
-		
+
 //		primitive                                reference
 //		8 bytes or less                           varies 
 //		quickly(directly)                         step wise

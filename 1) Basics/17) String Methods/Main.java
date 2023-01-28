@@ -35,6 +35,8 @@ public class Main {
         System.out.println("Second name is: "+secondName.trim()+"!");
 
         System.out.println("Replaced name: "+name.replace('B', 'P'));
-        System.out.println("Replaced name: "+name.replace("B", "P"));
+
+        name = "Bruhh";
+        System.out.println("Replaced name: "+name.replace("Br", "Pr"));
     }
 }

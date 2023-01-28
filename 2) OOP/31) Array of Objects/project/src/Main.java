@@ -27,6 +27,5 @@ public class Main
         for (int i = 0; i < refrigerator.length; i++) {
             System.out.println(refrigerator[i]);
         }
-
     }
 }

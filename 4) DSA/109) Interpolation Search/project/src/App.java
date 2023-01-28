@@ -30,7 +30,6 @@ public class App {
 			int probe = low + (high - low) * (value - array[low]) / 
 					    (array[high] - array[low]);
 			
-			
 			System.out.println("probe: " + probe);
 			
 			if(array[probe] == value) {
