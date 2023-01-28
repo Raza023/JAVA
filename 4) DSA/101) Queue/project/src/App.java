@@ -10,10 +10,10 @@ public class App {
 
         //offer()        Tail   just added to the queue(enqueue)(add)
         //poll()         Head   about to leave(dequeue)(remove)
-        //element()      same as poll() but throws exception that is not the case in poll().
+        //element()      same as poll() but throws an exception that is not the case in poll().
         //peek()         returns head(not remove)
         //isEmpty()      true/false
-        //size()         no. of elememnts in a queue. 
+        //size()         no. of elements in a queue. 
         //contains(obj)  true/false.
 
         // Why Queue?
@@ -30,7 +30,10 @@ public class App {
         queue.offer("d");
         queue.offer("e");
 
-        System.out.println("Peek: "+queue.peek());
+        System.out.println("Queue: "+queue);   //[a, b, c, d, e]
+        
+
+        System.out.println("Peek: "+queue.peek());   //a
         
         System.out.println("poll: "+queue.poll());   //a
         System.out.println("poll: "+queue.poll());   //b

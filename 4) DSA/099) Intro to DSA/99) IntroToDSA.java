@@ -3,7 +3,7 @@ We will learn about:
 
 1) Basic Data Structures
 2) Big O Notation
-3) Seaching Algorithms
+3) Searching Algorithms
 4) Sorting Algorithms
 5) Graphs
 6) Trees
@@ -17,7 +17,7 @@ example: (Baking a pizza)(it will be done step by step)
 example: Linear Search.
 
 Why DSA?
-1) write code that is both time and memory effecient.
+1) Write code that is both time and memory effecient.
 2) For job interviews.
 3) To get familiar with trees and graphs to get going in the field.
 

@@ -20,27 +20,22 @@ public class App {
     	}
     }
 
-	private static int interpolationSearch(int[] array, int value) {
+	private static int interpolationSearch(int[] array, int target) {
 		
-		int high = array.length - 1;
 		int low = 0;
+		int high = array.length - 1;
 		
-		while(value >= array[low] && value <= array[high] && low <= high) {
+		while(target >= array[low] && target <= array[high] && low <= high)
+		{	
+			int probe = low + (high - low) * (target - array[low]) / (array[high] - array[low]);
+
+			int value = array[probe];
 			
-			int probe = low + (high - low) * (value - array[low]) / 
-					    (array[high] - array[low]);
+			System.out.println("value at probe: " + value + " with probe: "+probe);
 			
-			System.out.println("probe: " + probe);
-			
-			if(array[probe] == value) {
-				return probe;
-			}
-			else if(array[probe] < value) {
-				low = probe + 1;
-			}
-			else {
-				high = probe - 1;
-			}
+			if(value < target) low = probe + 1;
+			else if(value > target) high = probe - 1;
+			else return probe;
 		}
 		
 		return -1;

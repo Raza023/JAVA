@@ -3,7 +3,7 @@
  */
 public class DynamicArray {
 
-    int size;
+    int size;      //default value size = 0
     int capacity = 10;
     Object[] array;
 
@@ -15,38 +15,60 @@ public class DynamicArray {
 		this.capacity = capacity;
 		this.array = new Object[capacity];
 	}
+
+	public int getSize() {
+        return size;                //size of array.
+    }
+
+	public int getCapacity() {
+        return capacity;                //capacity of array.
+    }
 	
     public Object get(int index) {
         return array[index];
     }
-	
-	public void add(Object data) {
-		
-		if(size >= capacity) {
+
+	public void add(Object data) 
+	{	
+		if(size >= capacity)
+		{
 			grow();
 		}
 		array[size] = data;
 		size++;
 	}
 	
-	public void insert(int index, Object data) {
-		
-		if(size >= capacity) {
-			grow();
+	public void insert(int index, Object data) 
+	{	
+		if(index<size)
+		{
+			if(size >= capacity)
+			{
+				grow();
+			}
+			for(int i = size; i > index; i--)
+			{
+				array[i] = array[i - 1];
+			}
+			array[index] = data;
+			size++;
 		}
-		for(int i = size; i > index; i--) {
-			array[i] = array[i - 1];
+		else
+		{
+			System.out.println(data+" can't be added at index "+index);
 		}
-		array[index] = data;
-		size++;
 	}
 	
 	public void delete(Object data) {
 		
 		for(int i = 0; i < size; i++) {
 			if(array[i] == data) {
-				for(int j = 0; j < (size - i - 1); j++){
-					array[i + j] = array[i + j + 1];
+				// for(int j = 0; j < (size - i - 1); j++){
+				// 	array[i + j] = array[i + j + 1];
+				// }
+				for(int j=i;j<size-1;j++)   //same as above.
+				{
+					array[j] = array[j+1];
 				}
 				array[size - 1] = null;
 				size--;

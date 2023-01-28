@@ -3,7 +3,7 @@ import java.util.Stack;
 public class App {
     //Stack: LIFO data structure. (Last in first out)
  
-    //Usefull functions:
+    //Useful functions:
     //       push() to add on the top.
     //       pop() to get and remove the top value.
     //       peek() to get the top value.
@@ -11,9 +11,9 @@ public class App {
     //       search() returns the index starting from 1 from top to bottom.
 
     //Features of stack:
-    //1) Undo/redo faeture.
+    //1) Undo/redo feature.
     //2) browser forward/backward moving.
-    //3) backtraking algos.
+    //3) backtracking algos.
     //4) calling functions (functions call stack)
 
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class App {
 
         // String lastValue = stack.peek();
 
-        System.out.println("Top of the stack: "+stack.peek());
+        System.out.println("Top of the stack: "+stack.peek());  //E
 
         while(!stack.isEmpty())
         {
@@ -46,7 +46,7 @@ public class App {
         stack.push("D");
         stack.push("E");
 
-        System.out.println(""+stack.search("D"));  //2
+        System.out.println("Position of D: "+stack.search("D"));  //2
     }
 
 }

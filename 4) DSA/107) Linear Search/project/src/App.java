@@ -35,7 +35,7 @@ public class App {
         }
         else
         {
-            System.out.println("Element was no where in the picture.");
+            System.out.println("Element was nowhere in the picture.");
         }
 
         scanner.close();

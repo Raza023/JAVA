@@ -29,7 +29,7 @@ public class App {
         
         // linkedList.remove(0);       //39000
         // linkedList.remove(5000);    //191600
-        linkedList.remove(9999);    //34800
+        linkedList.remove(9999);       //34800
 
         endTime = System.nanoTime();
         elapsedTime = endTime - startTime;
@@ -42,13 +42,13 @@ public class App {
         //do something.
 
         //------------Less time
-        // arrayList.get(0);           //14100
+        // arrayList.get(0);           //14100  
         // arrayList.get(5000);        //70400
         // arrayList.get(9999);        //24400
 
-        // arrayList.remove(0);         //288200
-        // arrayList.remove(5000);      //73500
-        arrayList.remove(9999);    //24000
+        // arrayList.remove(0);         //288200    //much time because of shifting
+        // arrayList.remove(5000);      //73500     //less time
+        arrayList.remove(9999);    //24000          //less time because of no shifting
         
 
         endTime = System.nanoTime();
