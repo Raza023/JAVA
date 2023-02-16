@@ -9,7 +9,7 @@ public class App {
         //It's a linear data structure.
 
         //offer()        Tail   just added to the queue(enqueue)(add)
-        //poll()         Head   about to leave(dequeue)(remove)
+        //poll()         Head   about to leave(dequeue)(remove)         //returns null if empty 
         //element()      same as poll() but throws an exception that is not the case in poll().
         //peek()         returns head(not remove)
         //isEmpty()      true/false
@@ -32,7 +32,6 @@ public class App {
 
         System.out.println("Queue: "+queue);   //[a, b, c, d, e]
         
-
         System.out.println("Peek: "+queue.peek());   //a
         
         System.out.println("poll: "+queue.poll());   //a

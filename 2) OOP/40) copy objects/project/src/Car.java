@@ -20,6 +20,11 @@ public class Car {
     Car(Car c)                  //copy constructor
     {
         this.copy(c);
+
+        // or use following
+        // this.setMake(c.getMake());
+        // this.setModel(c.getModel());
+        // this.setYear(c.getYear());
     }
 
     public void setMake(String make) {

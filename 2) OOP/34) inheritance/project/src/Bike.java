@@ -5,7 +5,7 @@ public class Bike extends Vehicle{  //decendent
     Bike()
     {
         super(180);
-        // super.speed =180;   //same as above
+        // super.speed = 180;   //same as above
         this.name = "Honda 70";
         this.numOfWheels = 2;
         this.numOfPaddels = 2;

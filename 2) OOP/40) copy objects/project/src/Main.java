@@ -10,6 +10,7 @@ public class Main {
         Car car = new Car("Honda","City",2020);
         Car car2 = new Car("Toyota","Corola",2021);
 
+        //https://stackoverflow.com/questions/9404625/java-pass-by-reference/9404727#9404727  (see this for better picture)
         //car2 = car;    //by reference (will be sharing same address) (two different names of same values/address) 
         //               //Changing in one object will be applied to other(We don't want this.)
         //               //car.setYear(2022);    it will change the attributes of both objects that refers to same address.
