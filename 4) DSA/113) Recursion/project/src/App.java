@@ -42,11 +42,11 @@ public class App {
     }
     public static void recurseThrough(int val)
     {
-        System.out.println(val);  //for decending order
-        if(val == 1)    //base case
+        if(val < 1)    //base case
         {
             return; 
         }
+        System.out.println(val);   //for decending order
         recurseThrough(val-1);
         System.out.println(val);   //for ascending order
     }

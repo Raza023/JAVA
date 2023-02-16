@@ -82,11 +82,11 @@ public class Main
 //		long            8 bytes              p                -9 quintillion / 9 quintillion
 
 //decimal point number.  (3.14)
-//		float           4 bytes              p                6-7 franctional points
-//		double          8 bytes              p                15 digits franctional points
+//		float           4 bytes              p                6-7 fractional points
+//		double          8 bytes              p                15 digits fractional points
 
 //		char            2 bytes              p                 char -'a'/ascii
-//		String          unlimted             r                // number of chars+1
+//		String          unlimited            r                // number of chars+1
 
 //		primitive                                reference
 //		8 bytes or less                           varies 

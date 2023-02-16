@@ -30,8 +30,8 @@ public class App {
         }
     }
 
-    public static int binarySearch(int[] array, int target) {
-        
+    public static int binarySearch(int[] array, int target)
+    {    
         int low = 0;
         int high = array.length-1;
 

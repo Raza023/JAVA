@@ -23,7 +23,7 @@ The detailed output will be based on the JDK you install.
 search bar> Environment variables.
 Add Path to jdk in Path variable.
 
-C:\Program Files\Java\jdk1.8.0_74\bin         (Path to JDK)
+C:\Program Files\Java\jdk1.8.0_74\bin         (Path to JDK in my case.)
 
 click Add and OK.
 

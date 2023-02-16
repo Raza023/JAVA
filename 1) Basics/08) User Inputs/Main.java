@@ -9,8 +9,9 @@ public class Main {
         System.out.println("Name: "+name);
 
         System.out.print("Enter your age: ");
+        int age = 0;
         try {
-            int age = scanner.nextInt();
+            age = scanner.nextInt();
             System.out.println("Age: "+age);
         } catch (Exception e) {
             //handle exception
@@ -21,6 +22,7 @@ public class Main {
         finally{
             //this code always be executed no matter if there is an exception or not.
             scanner.nextLine();       //it will clear the buffer(which having '\n' in it.) for us. And our program will run nicely.
+            age=0;
         }
         
         System.out.print("Enter your gender: ");
@@ -29,5 +31,4 @@ public class Main {
 
         scanner.close();
     }
-    
 }
