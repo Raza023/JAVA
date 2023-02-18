@@ -13,7 +13,7 @@ public class App
         
         //1) Adjacency matrix
         //Time complexity T(n)=O(1)   //(Adv)
-        //Space complexity = O(n^2)   //(Disadv)  //if n=5 Space complexity=25
+        //Space complexity = O(n^2) =(V^2)   //(Disadv)  //if n=5 Space complexity=25
         
         //2) Adjacency List
         //Time complexity T(n)=O(V) = O(n)        //(Disadv)

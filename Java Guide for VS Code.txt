@@ -1,3 +1,7 @@
+
+My DSA notes:
+https://docs.google.com/document/d/12FywtWhflKHGezskhonL-jo7KoFbUTDuIQNVAmbj76Y/edit?usp=sharing
+
 ----------------------------------------Java Cheat sheet for VS Code-------------------------------------------
 1)
 Install Java extension pack by Microsoft (from extensions)

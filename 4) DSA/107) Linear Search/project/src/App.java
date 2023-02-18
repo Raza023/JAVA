@@ -12,7 +12,7 @@ public class App {
         //elements are not necessary to be sorted.
 
         //Advantages:
-        //First for searches of small to medium dataset.
+        //Fast for searches of small to medium dataset.
         //Does not need to be sorted.
         //Useful for data structures that do not have random access.
 
