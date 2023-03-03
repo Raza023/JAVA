@@ -24,9 +24,19 @@ public class Main {
 
         //show
         System.out.println(foodList);
+
+        System.out.print("[");
         for (int i = 0; i < foodList.size(); i++) {
-            System.out.println(foodList.get(i));
+            if(i==foodList.size()-1)
+            {
+                System.out.print(foodList.get(i));
+            }
+            else
+            {
+                System.out.print(foodList.get(i)+", ");
+            }
         }
+        System.out.println("]");
 
         //clean list (delete all values from ArrayList)
         foodList.clear();

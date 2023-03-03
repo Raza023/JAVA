@@ -41,10 +41,11 @@ public class Main {
 
         String str = "abcdef";
         
+        System.out.print("String Manipulation: ");
         for(int i=0; i<str.length(); i++)
         {
-            int ch = str.charAt(i)-32;
-            str = str.substring(0,i)+(char)ch+str.substring(i+1);
+            int chr = str.charAt(i)-32;     //lower case to uppercase conversion
+            str = str.substring(0,i)+(char)chr+str.substring(i+1);
         }
         
         System.out.println(str);
