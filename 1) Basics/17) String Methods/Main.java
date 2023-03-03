@@ -38,5 +38,15 @@ public class Main {
 
         name = "Bruhh";
         System.out.println("Replaced name: "+name.replace("Br", "Pr"));
+
+        String str = "abcdef";
+        
+        for(int i=0; i<str.length(); i++)
+        {
+            int ch = str.charAt(i)-32;
+            str = str.substring(0,i)+(char)ch+str.substring(i+1);
+        }
+        
+        System.out.println(str);
     }
 }

@@ -11,7 +11,7 @@ public class Main {
         // boolean                        Boolean
         // char                           Character
         // int                            Integer
-        //double                          Double
+        // double                         Double
         //                                String
 
         //Disadvantage of wrapper classes       Advantages of wrapper classes
