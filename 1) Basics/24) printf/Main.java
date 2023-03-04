@@ -1,7 +1,7 @@
 //printf = an optional method to control, format and display text on the console window.
 //two arguments = format string + (object/variable/value)
 //for it we use format specifier.
-//  % [flag] [precision] [width] [conversion-character]
+//  % [flag] [width] [precision] [conversion-character]
 
 // format specifiers  [conversion-characters]
 //  %d     (int)decimal number
@@ -22,9 +22,8 @@ public class Main {
         System.out.printf("\nI am a %b Pakistani",true);
         System.out.printf("\nMy heights is %f feets",8.67);
 
-        
         //[width]      (define the width in which your data should display.)
-        //             // minimum number of characters to be written as output
+                       // minimum number of characters to be written as output
         //%16s         //defines from right to left and shifted towards right if data is small.
         //%-16s        //defines from left to right and shifted towards left if data is small and remaining space will be empty.
         System.out.printf("\n\nMy name is %16s","Hassan Raza");
@@ -47,6 +46,6 @@ public class Main {
         System.out.printf("\nPrice of torch is %015f",10000.000);
         System.out.printf("\nPrice of torch is %,15f",-10000.000);           //commas added
 
-        System.out.printf("\n\nPrice of torch is %,-+15f",-10000.000);       //, / left-align / negative sign everything there. 
+        System.out.printf("\n\nPrice of torch is %,-+15.2f",-10000.000);       //, / left-align / negative sign everything there. 
     }
 }

@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         //Encpsulation = Attributes of the class will be hidden/private.
-        //               can be accessible only using public methods (getter/setter).
+        //               can be accessible only using public methods (getter/setter). (And can do validetion on values while using setters.)
         //               You should make attributes of the class private if you don't have reason to make them public/protected.
 
         Car car = new Car("Honda","City",2020);

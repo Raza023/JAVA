@@ -40,4 +40,8 @@ public class Car {
     public int getYear() {
         return year;
     }
+
+    public void go() {
+        System.out.println("Go car go...");
+    }
 }

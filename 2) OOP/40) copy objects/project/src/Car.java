@@ -57,4 +57,7 @@ public class Car {
         this.setModel(c.getModel());
         this.setYear(c.getYear());
     }
+
+    public void go() {
+    }
 }

@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         //polymorphism = greek words for poly - "Many" and morph - "shapes"/"forms"
-        //dynamic    =   After compilation (during runtime).
+        //dynamic    =   After compilation (during runtime).   (Dynamic bindind)
 
         Animal animal;
 

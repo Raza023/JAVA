@@ -1,4 +1,12 @@
 
+/*
+ Passing object by value to constructor problem in c++
+
+1) The parameter is now passed by value to the copy constructor.
+2) In order to pass it by value it invokes the copy constructor.
+3) Goto 1.
+ */
+
 
 public class Main {
     public static void main(String[] args) {

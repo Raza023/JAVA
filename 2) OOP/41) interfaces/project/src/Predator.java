@@ -1,3 +1,3 @@
 public interface Predator {
-    void hunt();
+    void hunt();               //must be implemented in the classes that implement this interface.
 }
