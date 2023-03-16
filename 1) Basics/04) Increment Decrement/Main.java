@@ -27,5 +27,15 @@ public class Main {
 		System.out.println("Value: "+a);
 		System.out.println("Pre Decrement: "+b);
 		System.out.println("Post Decrement: "+c);
+
+		// int x=10;
+		// int y=10;
+        // y+=x++;
+        // System.out.println(x);
+        // System.out.println(y);
+        // x=10;
+        // x-=++x;
+		// x=x-(++x);
+        // System.out.println(x);
     }    
 }

@@ -56,7 +56,7 @@ public class BST{
         {
             return searchHelper(root.right, data);
         }
-        // return false;
+        return false;
     }
 
     public int remove(int data){

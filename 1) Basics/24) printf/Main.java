@@ -8,7 +8,7 @@
 //  %b     boolean
 //  %c     char
 //  %s     String
-//  %f     double
+//  %f     float, double
 
 
 
