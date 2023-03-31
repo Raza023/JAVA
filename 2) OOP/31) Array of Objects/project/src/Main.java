@@ -22,10 +22,15 @@ public class Main
         refrigerator[2] = f3;
 
         //syntax 2
-        // Food []fridge = {f1,f2,f3};   //same as above
+        Food []fridge = {f1,f2,f3};   //same as above
 
         for (int i = 0; i < refrigerator.length; i++) {
             System.out.println(refrigerator[i]);
+        }
+
+        for(Food food : fridge)
+        {
+            System.out.println(food);
         }
     }
 }

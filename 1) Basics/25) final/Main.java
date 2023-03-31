@@ -19,6 +19,9 @@ public class Main {
 In Java, a final class is a class that cannot be extended or subclassed. When a class is declared as final, 
 it means that it is complete and cannot be modified or extended by any other class.
 
+Note that when a class is declared as final, its methods are implicitly final as well, which means that 
+they cannot be overridden by any subclass.
+
 To declare a class as final, simply add the final keyword before the class keyword, like this:
 
 public final class MyClass {
@@ -29,9 +32,6 @@ In this example, MyClass is declared as final, which means that no other class c
 This is useful when you want to prevent other developers from modifying or subclassing your class, 
 for example if you have implemented a sensitive or important functionality in your class that you don't 
 want others to change.
-
-Note that when a class is declared as final, its methods are implicitly final as well, which means that 
-they cannot be overridden by any subclass.
 
 Here's an example of a final class with a final method:
 

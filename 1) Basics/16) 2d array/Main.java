@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println();
 
-        int [][]secondArray = {
+        int [][]secondArray = {           //jagged array
             {1,2,3},
             {1,2,3,4},
             {3,4,5,6}

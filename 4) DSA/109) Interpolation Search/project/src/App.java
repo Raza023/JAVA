@@ -41,3 +41,10 @@ public class App {
 		return -1;
 	}
 }
+
+
+/*
+On Best case O(1)
+On average case log(log(n)) 
+On the worst case O(n) (for instance where the numerical values of the keys increase exponentially)
+*/

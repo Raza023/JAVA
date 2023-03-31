@@ -67,7 +67,7 @@ OuterClass.StaticNestedClass.printValue();
 
 //Static constructor is not allowed
 
-1) Static methods can not be inherited from their subclasses because they belong to the class 
+VIP: 1) Static methods can not be inherited from their subclasses because they belong to the class 
 in which they are declared. 
 
 2) In the case of a constructor, a constructor is a reusable block of code, which means we can call it from its 

@@ -10,8 +10,6 @@
 //  %s     String
 //  %f     float, double
 
-
-
 public class Main {
     public static void main(String[] args) {
 

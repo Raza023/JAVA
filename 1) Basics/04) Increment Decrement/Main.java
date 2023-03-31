@@ -6,16 +6,16 @@ public class Main {
 		// pre  ++x                            pre --x
 		// post x++                            post x--
 		
-		int x=10;
+		// int x=10;
 		
-		int y=++x;
-        x=10;
-        int z=x++;
-        x=10;
+		// int y=++x;
+        // x=10;
+        // int z=x++;
+        // x=10;
 
-		System.out.println("Value: "+x);
-		System.out.println("Pre Increment: "+y);
-		System.out.println("Post Increment: "+z);
+		// System.out.println("Value: "+x);
+		// System.out.println("Pre Increment: "+y);
+		// System.out.println("Post Increment: "+z);
 		
 		int a=10;
 		
@@ -28,14 +28,14 @@ public class Main {
 		System.out.println("Pre Decrement: "+b);
 		System.out.println("Post Decrement: "+c);
 
-		// int x=10;
-		// int y=10;
-        // y+=x++;
-        // System.out.println(x);
-        // System.out.println(y);
-        // x=10;
-        // x-=++x;
+		int x=10;
+		int y=10;
+        y+=x++;
+        System.out.println(x);
+        System.out.println(y);
+        x=10;
+        x+=++x;
 		// x=x-(++x);
-        // System.out.println(x);
-    }    
+        System.out.println(x);
+    }
 }

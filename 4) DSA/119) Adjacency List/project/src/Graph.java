@@ -15,12 +15,12 @@ public class Graph {
 	}
 	public void addEdge(int src, int dst) {
 		LinkedList<Node> srcList = alist.get(src);
-		Node dstNode = alist.get(dst).get(0);         //I am getting the node object from here.
+		Node dstNode = alist.get(dst).get(0);         //I'm getting the node object from here.
 		srcList.add(dstNode);
 	}
 	public boolean checkEdge(int src, int dst) {
 		LinkedList<Node> srcList = alist.get(src);
-		Node dstNode = alist.get(dst).get(0);         //I am getting the node object from here.
+		Node dstNode = alist.get(dst).get(0);         //I'm getting the node object from here.
 		
 		for(Node node : srcList) {
 			if(node == dstNode) {
@@ -38,3 +38,4 @@ public class Graph {
 		}
 	}
 }
+

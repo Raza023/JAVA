@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         //polymorphism = greek words for poly - "Many" and morph - "shapes"/"forms"
-        //dynamic    =   After compilation (during runtime).   (Dynamic bindind)
+        //dynamic    =   After compilation (during runtime).   (Dynamic binding)
 
         Animal animal;
 
@@ -31,3 +31,13 @@ public class Main
         scanner.close();
     }
 }
+
+/*
+
+Polymorphism
+
+Types:
+1) compile-time(function overloading, operator overloading). Static Binding (also known as Early Binding)(when type of object is determined at compile time).
+2) Runtime(Method overridding, virtual function). Dynamic Binding (also known as Late Binding)(when type of object is determined at run time).
+
+*/

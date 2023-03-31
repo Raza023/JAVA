@@ -15,3 +15,11 @@ public class Main
         c.go();
     }
 }
+
+
+/*
+ * An abstract class in C++ is one that has at least one pure virtual function by definition. 
+ * In other words, a function that has no definition. The abstract class's descendants must 
+ * define the pure virtual function; otherwise, the subclass would become an abstract class in its own right.
+ * 
+ */
