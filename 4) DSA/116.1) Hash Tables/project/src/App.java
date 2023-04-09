@@ -34,6 +34,8 @@ public class App
         table.put(555,"Hussain");
         table.put(777,"Jawad");
 
+        table.replace(777, "Jawad Ali");
+
         //System.out.println(table.get(123));   //Abbas
 
         //table.remove(123);

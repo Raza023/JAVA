@@ -160,5 +160,101 @@ public class BST{
 		}
 		return root.data;
     }
-    
+
+    public int getHeight()
+    {
+        return getHeightHelper(root);
+    }
+
+    public int getHeightHelper(Node root)
+    {
+        if(root == null)
+        {
+            return 0;
+        }
+
+        int lh = getHeightHelper(root.left);
+        int rh = getHeightHelper(root.right);
+        return Math.max(lh, rh)+1;
+    }
+
+    public void levelOrderTraversal()
+    {
+        int h = getHeight();
+        for(int i=1;i<=h;i++)
+        {
+            levelOrderTraversalHelper(root,i);
+            System.out.println("");
+        }
+    }
+
+    public void levelOrderTraversalHelper(Node root, int level)
+    {
+        if (root == null)
+        {
+            return;
+        }
+        if(level == 1)
+        {
+            System.out.print(root.data+" ");
+        }
+        else if(level>1)
+        {
+            levelOrderTraversalHelper(root.left, level-1);
+            levelOrderTraversalHelper(root.right, level-1);
+            
+        }
+    }
+
+    public void ZigZagTraversal()
+    {
+        int h = getHeight();
+        for(int i=1;i<=h;i++)
+        {
+            if(i%2 != 0)
+            {
+                ZigZagOrderTraversalHelper1(root,i);
+                System.out.println("");
+            }
+            else
+            {
+                ZigZagOrderTraversalHelper2(root,i);
+                System.out.println("");
+            }
+        }
+    }
+
+    public void ZigZagOrderTraversalHelper1(Node root, int level)
+    {
+        if (root == null)
+        {
+            return;
+        }
+        if(level == 1)
+        {
+            System.out.print(root.data+" ");
+        }
+        else if(level>1)
+        {
+            ZigZagOrderTraversalHelper1(root.left, level-1);
+            ZigZagOrderTraversalHelper1(root.right, level-1);   
+        }
+    }
+
+    public void ZigZagOrderTraversalHelper2(Node root, int level)
+    {
+        if (root == null)
+        {
+            return;
+        }
+        if(level == 1)
+        {
+            System.out.print(root.data+" ");
+        }
+        else if(level>1)
+        {
+            ZigZagOrderTraversalHelper2(root.right, level-1);  
+            ZigZagOrderTraversalHelper2(root.left, level-1);
+        }
+    }
 }

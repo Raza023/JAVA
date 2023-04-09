@@ -16,13 +16,22 @@ public class App
 		tree.insert(new Node(4));
 		tree.insert(new Node(8));
 
-		System.out.println("\nInorder tree traversal: ");
+		System.out.println("\nInOrder tree traversal: ");
 		tree.inorderTraversal();
 
-		System.out.println("\nPreorder tree traversal: ");
+		System.out.println("\nPreOrder tree traversal: ");
 		tree.preorderTraversal();
 
-		System.out.println("\nPostorder tree traversal: ");
+		System.out.println("\nPostOrder tree traversal: ");
 		tree.postorderTraversal();
+
+		System.out.println("\nLevelOrder tree traversal: ");
+		tree.levelOrderTraversal();
+
+		System.out.println("\nZigZagOrder tree traversal: ");
+		tree.ZigZagTraversal();
+
+		System.out.println("Height of tree: "+tree.getHeight());
+		
     }
 }
