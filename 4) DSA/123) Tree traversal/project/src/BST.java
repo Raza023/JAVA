@@ -201,8 +201,7 @@ public class BST{
         else if(level>1)
         {
             levelOrderTraversalHelper(root.left, level-1);
-            levelOrderTraversalHelper(root.right, level-1);
-            
+            levelOrderTraversalHelper(root.right, level-1);   
         }
     }
 

@@ -7,9 +7,12 @@ public class Main {
         System.out.print("Enter today's day: ");
         String day =  scanner.nextLine();
 
-        switch (day.toLowerCase()) {
+        
+        switch (day.toLowerCase())
+        {
             case "monday":
-                System.out.println("Today is monday.");
+                System.out.println("Today is ");
+                System.out.println("Monday.");
                 break;
             case "tuesday":
                 System.out.println("Today is tuesday.");

@@ -4,7 +4,7 @@ public class App
 {
     public static void main(String args[])
     {   	
-    	//Graphs = Collection of Nodes(data, objects) and Vertices(relationship).
+    	//Graphs = Collection of Nodes(data, objects) or Vertices and edges(relationship).
         //         The nodes of the graph have adjacency.
         //         Types (Directed graph / Undirected Graph).
 

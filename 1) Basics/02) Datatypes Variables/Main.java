@@ -22,7 +22,7 @@ public class Main
         byte g = 127;
         System.out.println("Byte: "+g);
 		g++;
-        //g=g+1;    can't do this for overflow.
+        // g=g+1;    //can't do this for overflow.
 		System.out.println("Byte overflow: "+g);
 
         short s = 32767;
@@ -48,6 +48,14 @@ public class Main
         System.out.println("char: "+ch);
 
         //A to Z characters.
+        // for(int i=65; i<65+26; i++)
+        // {
+        //     System.out.println((char)i);
+        // }
+        // for(char i=65; i<65+26; i++)
+        // {
+        //     System.out.println(i);
+        // }
         // for(char i='A'; i<65+26; i++)
         // {
         //     System.out.println(i);
@@ -69,6 +77,15 @@ public class Main
         System.out.println("After swapping: "+"");
         System.out.println("j: "+j);
         System.out.println("k: "+k);
+
+        k = k+j;
+        j = k-j;
+        k = k-j;
+
+        System.out.println("After swapping using no extra memory: "+"");
+        System.out.println("j: "+j);
+        System.out.println("k: "+k);
+
     }   
 }
 
@@ -79,7 +96,7 @@ public class Main
 //		byte            1 byte               p                -128/127
 //		short           2 bytes              p                -32768/32767
 //		int             4 bytes              p                -2 billion/2 billion
-//		long            8 bytes              p                -9 quintillion / 9 quintillion
+//		long            8 bytes              p                -9 quintillion / 9 quintillion   
 
 //decimal point number.  (3.14)
 //		float           4 bytes              p                6-7 fractional points
